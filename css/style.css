@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.wrapper__customers {
+  position: relative;
+}
+.customers__title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  display: flex;
+  justify-content: center;
+}
+.customers__title::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 170px;
+  height: 2px;
+  background-color: #ec7979;
+  left: calc(50% - 85px);
+  top: 150px;
+}
+.customers__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.cart__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+}
+
+.wrapper__carts {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cart__title {
+  width: 370px;
+  background-color: #e2e2e2;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.cart__title::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid #e2e2e2;
+  position: absolute;
+  left: 50px;
+}
+
+.manager__devis {
+  width: 370px;
+  position: relative;
+}
+.manager__jaydon {
+  width: 370px;
+  position: relative;
+}
+.manager__cooper {
+  width: 370px;
+  position: relative;
+}
+.wrapper__managers {
+  margin-top: 66px;
+  display: flex;
+  justify-content: space-between;
+}
+.managers {
+  width: 269px;
+}
+.manager {
+  width: 100px;
+}
+.managers__name__davis {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+.manager__title__davis {
+  position: absolute;
+  left: 100px;
+  top: 55px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.managers__name__jaydon {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+.manager__title__jaydon {
+  position: absolute;
+  left: 100px;
+  top: 55px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.managers__name__cooper {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 100px;
+  bottom: 20px;
+}
+.manager__title__cooper {
+  position: absolute;
+  left: 100px;
+  top: 55px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
